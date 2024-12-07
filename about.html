@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ooty Tourist Places</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#places">Tourist Places</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#booking">Book a Trip</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h1>Discover Ooty's Best Tourist Spots</h1>
+            <p>Explore the beauty of Ooty with our curated list of must-visit places!</p>
+            <button onclick="window.location.href='#places'">Explore Places</button>
+        </section>
+
+        <!-- Tourist Places Section -->
+        <section id="places">
+            <h2>Tourist Places in Ooty</h2>
+            <div class="place">
+                <img src="https://www.hoteldekho.com/storage/img/tourattraction/1650628046ooty%20lake%20in%20ooty.jpg" alt="Ooty Lake" class="lazy-load" data-src="image1.jpg" loading="lazy" style="width: 600px; height: auto;"><br>
+                <h3>Ooty Lake</h3>
+                <p>Enjoy a scenic boat ride at Ooty Lake.</p>
+            </div>
+            <div class="place">
+                <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/98000/98483-Doddabetta-Peak.jpg" alt="Doddabetta Peak" class="lazy-load" data-src="image2.jpg" loading="lazy" style="width: 600px; height: auto;"><br>
+                <h3>Doddabetta Peak</h3>
+                <p>Hike up to the highest peak in Ooty for breathtaking views.</p>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Photo Gallery</h2>
+            <div class="gallery">
+                <img src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_1360,h_524/https://doddabetta.com/wp-content/uploads/2015/05/9s.jpg" width="500px" height="300px" alt="Scenic View 1" class="lazy-load" data-src="gallery1.jpg" loading="lazy">
+                <img src="https://live.staticflickr.com/5616/15349762328_196af94389_b.jpg" width="450px" height="300px" alt="Scenic View 2" class="lazy-load" data-src="gallery2.jpg" loading="lazy">
+            </div>
+        </section>
+
+        <!-- Booking Section -->
+        <section id="booking">
+            <h2>Book Your Trip</h2>
+            <form id="booking-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews">
+            <h2>Visitor Reviews</h2>
+            <div class="review">
+                <p>"Ooty is beautiful! Doddabetta Peak was my favorite!" - John Doe</p>
+            </div>
+            <div class="review">
+                <p>"The Ooty Lake boat ride was magical!" - Jane Smith</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ooty Tours. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
